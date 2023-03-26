@@ -1,7 +1,7 @@
 import numpy as np  # used to generate the random x and y coordinates, as well as calculating the standard deviation and mean from a list
 import math  # used to calculate a square root
 import time  # used to take the runtime
-
+import threading  # used to implement parallelization
 
 def desc(func):
     if func == "n":
