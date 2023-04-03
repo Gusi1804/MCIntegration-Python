@@ -1,7 +1,6 @@
 import numpy as np  # used to generate the random x and y coordinates, as well as calculating the standard deviation and mean from a list
 import math  # used to calculate a square root
 import time  # used to take the runtime
-import multiprocessing  # used to run multiple processes (parallelization)
 from multiprocessing import Pool  # used to create a pool of workers for parallelization
 
 
